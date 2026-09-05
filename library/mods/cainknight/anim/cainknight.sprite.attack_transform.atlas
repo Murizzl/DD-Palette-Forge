@@ -1,0 +1,97 @@
+
+cainknight.sprite.attack_transform.png
+size: 3475,583
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow.psd
+  rotate: true
+  xy: 3410, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+trans_one_fx0.psd
+  rotate: true
+  xy: 1261, 263
+  size: 318, 789
+  orig: 318, 789
+  offset: 0, 0
+  index: -1
+trans_one_fx4.psd
+  rotate: true
+  xy: 1817, 5
+  size: 248, 498
+  orig: 248, 498
+  offset: 0, 0
+  index: -1
+transform_one.psd
+  rotate: true
+  xy: 2674, 170
+  size: 411, 599
+  orig: 411, 599
+  offset: 0, 0
+  index: -1
+transform_one_fx1.psd
+  rotate: false
+  xy: 1261, 9
+  size: 554, 252
+  orig: 554, 252
+  offset: 0, 0
+  index: -1
+transform_one_fx2.psd
+  rotate: true
+  xy: 3275, 96
+  size: 263, 133
+  orig: 263, 133
+  offset: 0, 0
+  index: -1
+transform_one_fx3.psd
+  rotate: false
+  xy: 2747, 40
+  size: 120, 128
+  orig: 120, 128
+  offset: 0, 0
+  index: -1
+transform_tow.psd
+  rotate: true
+  xy: 2052, 255
+  size: 326, 620
+  orig: 326, 620
+  offset: 0, 0
+  index: -1
+transform_tow_fx0.psd
+  rotate: true
+  xy: 660, 40
+  size: 541, 599
+  orig: 541, 599
+  offset: 0, 0
+  index: -1
+transform_tow_fx1.psd
+  rotate: true
+  xy: 2564, 34
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+transform_tow_fx2.psd
+  rotate: true
+  xy: 2, 3
+  size: 578, 656
+  orig: 578, 656
+  offset: 0, 0
+  index: -1
+transform_tow_fx3.psd
+  rotate: false
+  xy: 2317, 46
+  size: 245, 207
+  orig: 245, 207
+  offset: 0, 0
+  index: -1
+transform_tow_fx4.psd
+  rotate: false
+  xy: 3275, 361
+  size: 198, 220
+  orig: 198, 220
+  offset: 0, 0
+  index: -1

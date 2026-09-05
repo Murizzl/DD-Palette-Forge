@@ -1,0 +1,55 @@
+
+cainknight.sprite.ripo_shot_target.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+riposte_hit1.psd
+  rotate: true
+  xy: 2, 48
+  size: 77, 173
+  orig: 77, 173
+  offset: 0, 0
+  index: -1
+riposte_hit2.psd
+  rotate: true
+  xy: 283, 70
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1
+riposte_hit5.psd
+  rotate: false
+  xy: 177, 76
+  size: 104, 49
+  orig: 104, 49
+  offset: 0, 0
+  index: -1
+riposte_hit6.psd
+  rotate: true
+  xy: 177, 58
+  size: 16, 34
+  orig: 16, 34
+  offset: 0, 0
+  index: -1
+riposte_hit7.psd
+  rotate: false
+  xy: 33, 21
+  size: 13, 25
+  orig: 13, 25
+  offset: 0, 0
+  index: -1
+riposte_hit8.psd
+  rotate: false
+  xy: 375, 109
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+riposte_hit9.psd
+  rotate: false
+  xy: 2, 2
+  size: 29, 44
+  orig: 29, 44
+  offset: 0, 0
+  index: -1

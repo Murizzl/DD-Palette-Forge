@@ -1,0 +1,202 @@
+
+cainknight.sprite.idle.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_finger_left.psd
+  rotate: true
+  xy: 566, 200
+  size: 310, 416
+  orig: 310, 416
+  offset: 0, 0
+  index: -1
+arm_left.psd
+  rotate: true
+  xy: 984, 213
+  size: 297, 419
+  orig: 297, 419
+  offset: 0, 0
+  index: -1
+belt.psd
+  rotate: false
+  xy: 268, 2
+  size: 122, 43
+  orig: 122, 43
+  offset: 0, 0
+  index: -1
+body.psd
+  rotate: true
+  xy: 361, 47
+  size: 116, 208
+  orig: 116, 208
+  offset: 0, 0
+  index: -1
+cape_left.psd
+  rotate: true
+  xy: 137, 18
+  size: 80, 129
+  orig: 80, 129
+  offset: 0, 0
+  index: -1
+cape_right.psd
+  rotate: true
+  xy: 1797, 135
+  size: 119, 134
+  orig: 119, 134
+  offset: 0, 0
+  index: -1
+chikage.psd
+  rotate: false
+  xy: 1405, 130
+  size: 281, 214
+  orig: 281, 214
+  offset: 0, 0
+  index: -1
+gun.psd
+  rotate: true
+  xy: 2, 165
+  size: 345, 562
+  orig: 345, 562
+  offset: 0, 0
+  index: -1
+hair.psd
+  rotate: true
+  xy: 1235, 131
+  size: 80, 114
+  orig: 80, 114
+  offset: 0, 0
+  index: -1
+head.psd
+  rotate: false
+  xy: 571, 55
+  size: 136, 143
+  orig: 136, 143
+  offset: 0, 0
+  index: -1
+idle_arm_left2.psd
+  rotate: true
+  xy: 268, 47
+  size: 51, 86
+  orig: 51, 86
+  offset: 0, 0
+  index: -1
+idle_arm_right.psd
+  rotate: false
+  xy: 1933, 121
+  size: 61, 133
+  orig: 61, 133
+  offset: 0, 0
+  index: -1
+idle_arm_right_2.psd
+  rotate: true
+  xy: 1688, 264
+  size: 80, 113
+  orig: 80, 113
+  offset: 0, 0
+  index: -1
+knee_left.psd
+  rotate: true
+  xy: 1085, 60
+  size: 63, 68
+  orig: 63, 68
+  offset: 0, 0
+  index: -1
+knee_right.psd
+  rotate: true
+  xy: 1155, 58
+  size: 65, 67
+  orig: 65, 67
+  offset: 0, 0
+  index: -1
+lef_right.psd
+  rotate: true
+  xy: 709, 35
+  size: 60, 143
+  orig: 60, 143
+  offset: 0, 0
+  index: -1
+leg2_right.psd
+  rotate: true
+  xy: 984, 138
+  size: 73, 125
+  orig: 73, 125
+  offset: 0, 0
+  index: -1
+leg_left.psd
+  rotate: true
+  xy: 1111, 125
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+leg_left2.psd
+  rotate: true
+  xy: 976, 66
+  size: 70, 107
+  orig: 70, 107
+  offset: 0, 0
+  index: -1
+mant_acse.psd
+  rotate: false
+  xy: 1990, 461
+  size: 45, 49
+  orig: 45, 49
+  offset: 0, 0
+  index: -1
+mant_back.psd
+  rotate: true
+  xy: 1405, 346
+  size: 164, 396
+  orig: 164, 396
+  offset: 0, 0
+  index: -1
+mant_up.psd
+  rotate: false
+  xy: 871, 103
+  size: 103, 95
+  orig: 103, 95
+  offset: 0, 0
+  index: -1
+neck.psd
+  rotate: false
+  xy: 709, 97
+  size: 160, 101
+  orig: 160, 101
+  offset: 0, 0
+  index: -1
+saya.psd
+  rotate: false
+  xy: 1803, 256
+  size: 185, 254
+  orig: 185, 254
+  offset: 0, 0
+  index: -1
+saya_ribon_back.psd
+  rotate: true
+  xy: 392, 23
+  size: 22, 70
+  orig: 22, 70
+  offset: 0, 0
+  index: -1
+shadow.psd
+  rotate: false
+  xy: 2, 100
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+under_left.psd
+  rotate: true
+  xy: 2, 17
+  size: 81, 133
+  orig: 81, 133
+  offset: 0, 0
+  index: -1
+under_rignt.psd
+  rotate: false
+  xy: 1688, 130
+  size: 107, 132
+  orig: 107, 132
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+cainknight.sprite.heroic.png
+size: 2552,1131
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heroic.psd
+  rotate: true
+  xy: 1345, 5
+  size: 1124, 905
+  orig: 1124, 905
+  offset: 0, 0
+  index: -1
+heroic_clawn.psd
+  rotate: true
+  xy: 2252, 820
+  size: 309, 298
+  orig: 309, 298
+  offset: 0, 0
+  index: -1
+heroic_flash.psd
+  rotate: false
+  xy: 2, 2
+  size: 1341, 1127
+  orig: 1341, 1127
+  offset: 0, 0
+  index: -1

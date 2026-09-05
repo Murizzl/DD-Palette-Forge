@@ -1,0 +1,27 @@
+
+cainknight.sprite.defend.png
+size: 626,1042
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defence_one.psd
+  rotate: false
+  xy: 2, 446
+  size: 551, 594
+  orig: 551, 594
+  offset: 0, 0
+  index: -1
+defence_tow.psd
+  rotate: true
+  xy: 2, 2
+  size: 442, 622
+  orig: 442, 622
+  offset: 0, 0
+  index: -1
+shadow.psd
+  rotate: true
+  xy: 555, 683
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

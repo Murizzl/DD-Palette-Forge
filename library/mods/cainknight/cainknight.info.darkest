@@ -1,0 +1,80 @@
+resistances: .stun 40% .poison 30% .bleed 60% .disease 30% .move 40% .debuff 20% .death_blow 67% .trap 30%
+crit: .effects "on_crit_acc_ck"
+weapon: .name "cainknight_weapon_0" .atk 0% .dmg 6 13 .crit 2% .spd 5
+weapon: .name "cainknight_weapon_1" .atk 0% .dmg 7 15 .crit 3% .spd 5 .upgradeRequirementCode 0
+weapon: .name "cainknight_weapon_2" .atk 0% .dmg 8 16 .crit 4% .spd 6 .upgradeRequirementCode 1
+weapon: .name "cainknight_weapon_3" .atk 0% .dmg 9 18 .crit 5% .spd 6 .upgradeRequirementCode 2
+weapon: .name "cainknight_weapon_4" .atk 0% .dmg 10 19 .crit 6% .spd 7 .upgradeRequirementCode 3
+armour: .name "cainknight_armour_0" .def 10% .prot 0 .hp 23 .spd 0
+armour: .name "cainknight_armour_1" .def 15% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 0
+armour: .name "cainknight_armour_2" .def 20% .prot 0 .hp 33 .spd 0 .upgradeRequirementCode 1
+armour: .name "cainknight_armour_3" .def 25% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 2
+armour: .name "cainknight_armour_4" .def 30% .prot 0 .hp 43 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "cain_k_transform" .level 0 .type "" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid False .valid_modes "ck_one_handed" "ck_two_handed" .ck_one_handed_effects "switch_mode_ck_two_handed_self" "CK_BARK_BEAST" "cain_k_selfbleed" "ck_clear_riposte" "ck_noutou_1" .ck_two_handed_effects "switch_mode_ck_one_handed_self" "CK_BARK_HUMAN" "ck_clear_riposte" "CK_cure_bleed_edit" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false .refresh_after_each_wave true
+combat_skill: .id "cain_k_transform" .level 1 .type "" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid False .valid_modes "ck_one_handed" "ck_two_handed" .ck_one_handed_effects "switch_mode_ck_two_handed_self" "CK_BARK_BEAST" "cain_k_selfbleed" "ck_clear_riposte" "ck_noutou_2" .ck_two_handed_effects "switch_mode_ck_one_handed_self" "CK_BARK_HUMAN" "ck_clear_riposte" "CK_cure_bleed_edit" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false .refresh_after_each_wave true
+combat_skill: .id "cain_k_transform" .level 2 .type "" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid False .valid_modes "ck_one_handed" "ck_two_handed" .ck_one_handed_effects "switch_mode_ck_two_handed_self" "CK_BARK_BEAST" "cain_k_selfbleed" "ck_clear_riposte" "ck_noutou_3" .ck_two_handed_effects "switch_mode_ck_one_handed_self" "CK_BARK_HUMAN" "ck_clear_riposte" "CK_cure_bleed_edit" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false .refresh_after_each_wave true
+combat_skill: .id "cain_k_transform" .level 3 .type "" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid False .valid_modes "ck_one_handed" "ck_two_handed" .ck_one_handed_effects "switch_mode_ck_two_handed_self" "CK_BARK_BEAST" "cain_k_selfbleed" "ck_clear_riposte" "ck_noutou_4" .ck_two_handed_effects "switch_mode_ck_one_handed_self" "CK_BARK_HUMAN" "ck_clear_riposte" "CK_cure_bleed_edit" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false .refresh_after_each_wave true
+combat_skill: .id "cain_k_transform" .level 4 .type "" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid False .valid_modes "ck_one_handed" "ck_two_handed" .ck_one_handed_effects "switch_mode_ck_two_handed_self" "CK_BARK_BEAST" "cain_k_selfbleed" "ck_clear_riposte" "ck_noutou_5" .ck_two_handed_effects "switch_mode_ck_one_handed_self" "CK_BARK_HUMAN" "ck_clear_riposte" "CK_cure_bleed_edit" .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false .refresh_after_each_wave true
+
+combat_skill: .id "cain_k_kesagiri" .level 0 .type "melee" .atk 95% .dmg -20% .crit 2% .launch 321 .target 123 .is_crit_valid True  .effect "Man Killer 1" "ck_mist_debuff_edit_1" .valid_modes ck_one_handed
+combat_skill: .id "cain_k_kesagiri" .level 1 .type "melee" .atk 100% .dmg -20% .crit 3% .launch 321 .target 123 .is_crit_valid True  .effect "Man Killer 2" "ck_mist_debuff_edit_2" .valid_modes ck_one_handed
+combat_skill: .id "cain_k_kesagiri" .level 2 .type "melee" .atk 105% .dmg -20% .crit 4% .launch 321 .target 123 .is_crit_valid True  .effect "Man Killer 3" "ck_mist_debuff_edit_3" .valid_modes ck_one_handed
+combat_skill: .id "cain_k_kesagiri" .level 3 .type "melee" .atk 110% .dmg -20% .crit 5% .launch 321 .target 123 .is_crit_valid True  .effect "Man Killer 4" "ck_mist_debuff_edit_4" .valid_modes ck_one_handed
+combat_skill: .id "cain_k_kesagiri" .level 4 .type "melee" .atk 115% .dmg -20% .crit 6% .launch 321 .target 123 .is_crit_valid True  .effect "Man Killer 5" "ck_mist_debuff_edit_5" .valid_modes ck_one_handed
+
+combat_skill: .id "cain_k_gun" .level 0 .type "ranged" .atk 100% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid False  .effect "cain_k_gun_1" "ck_clear_riposte" "ck_mark_self_edit" "cain_k_riposte_1EDIT" "cain_k_riposte_stun_1" "cain_k_riposte_tooltip_1a" "cain_k_riposte_tooltip_1b" .valid_modes ck_one_handed
+combat_skill: .id "cain_k_gun" .level 1 .type "ranged" .atk 100% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid False  .effect "cain_k_gun_1" "ck_clear_riposte" "ck_mark_self_edit" "cain_k_riposte_2EDIT" "cain_k_riposte_stun_2" "cain_k_riposte_tooltip_2a" "cain_k_riposte_tooltip_2b" .valid_modes ck_one_handed
+combat_skill: .id "cain_k_gun" .level 2 .type "ranged" .atk 100% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid False  .effect "cain_k_gun_2" "ck_clear_riposte" "ck_mark_self_edit" "cain_k_riposte_3EDIT" "cain_k_riposte_stun_3" "cain_k_riposte_tooltip_3a" "cain_k_riposte_tooltip_3b" .valid_modes ck_one_handed
+combat_skill: .id "cain_k_gun" .level 3 .type "ranged" .atk 100% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid False  .effect "cain_k_gun_2" "ck_clear_riposte" "ck_mark_self_edit" "cain_k_riposte_4EDIT" "cain_k_riposte_stun_4" "cain_k_riposte_tooltip_4a" "cain_k_riposte_tooltip_4b" .valid_modes ck_one_handed
+combat_skill: .id "cain_k_gun" .level 4 .type "ranged" .atk 100% .dmg 0% .crit 0% .launch 4321 .target .is_crit_valid False  .effect "cain_k_gun_3" "ck_clear_riposte" "ck_mark_self_edit" "cain_k_riposte_5EDIT" "cain_k_riposte_stun_5" "cain_k_riposte_tooltip_5a" "cain_k_riposte_tooltip_5b" .valid_modes ck_one_handed
+
+riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 90% .dmg 0% .crit 5% .launch 1234 .target 1234 .is_crit_valid True .valid_modes ck_one_handed ck_two_handed .ck_two_handed_effects "ck_chikage_riposte" "ck_clear_riposte" "ck_unmark_self" "ck_clear_buffs"
+
+combat_skill: .id "cain_k_naizou" .level 0 .type "melee" .atk 90%  .dmg -40% .crit 0% .launch 321 .target 123 .is_crit_valid True .ignore_protection true .effect "ck_dmg_vs_stun_EDIT" "ck_visc_move_1" "cain_k_stun_remove" .valid_modes ck_one_handed .is_stall_invalidating false
+combat_skill: .id "cain_k_naizou" .level 1 .type "melee" .atk 95%  .dmg -40% .crit 1% .launch 321 .target 123 .is_crit_valid True .ignore_protection true .effect "ck_dmg_vs_stun_EDIT" "ck_visc_move_2" "cain_k_stun_remove" .valid_modes ck_one_handed .is_stall_invalidating false
+combat_skill: .id "cain_k_naizou" .level 2 .type "melee" .atk 100% .dmg -40% .crit 2% .launch 321 .target 123 .is_crit_valid True .ignore_protection true .effect "ck_dmg_vs_stun_EDIT" "ck_visc_move_3" "cain_k_stun_remove" .valid_modes ck_one_handed .is_stall_invalidating false
+combat_skill: .id "cain_k_naizou" .level 3 .type "melee" .atk 110% .dmg -40% .crit 3% .launch 321 .target 123 .is_crit_valid True .ignore_protection true .effect "ck_dmg_vs_stun_EDIT" "ck_visc_move_4" "cain_k_stun_remove" .valid_modes ck_one_handed .is_stall_invalidating false
+combat_skill: .id "cain_k_naizou" .level 4 .type "melee" .atk 115% .dmg -40% .crit 4% .launch 321 .target 123 .is_crit_valid True .ignore_protection true .effect "ck_dmg_vs_stun_EDIT" "ck_visc_move_5" "cain_k_stun_remove" .valid_modes ck_one_handed .is_stall_invalidating false
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 1 .launch 4321 .valid_modes ck_one_handed ck_two_handed
+
+combat_skill: .id "cain_k_kiriage" .level 0 .type "melee" .atk 85% .dmg 0% .crit 1% .launch 21 .target 12 .is_crit_valid True .effect "cain_k_kiriage_1EDIT" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+combat_skill: .id "cain_k_kiriage" .level 1 .type "melee" .atk 90% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True .effect "cain_k_kiriage_1EDIT" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+combat_skill: .id "cain_k_kiriage" .level 2 .type "melee" .atk 95% .dmg 0% .crit 3% .launch 21 .target 12 .is_crit_valid True .effect "cain_k_kiriage_2EDIT" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+combat_skill: .id "cain_k_kiriage" .level 3 .type "melee" .atk 100% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True .effect "cain_k_kiriage_2EDIT" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+combat_skill: .id "cain_k_kiriage" .level 4 .type "melee" .atk 105% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True .effect "cain_k_kiriage_3EDIT" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+
+combat_skill: .id "cain_k_iai" .level 0 .type "melee" .atk 80%  .dmg 40% .crit 4% .move 0 1 .launch 32 .target 12 .is_crit_valid True  .effect "cain_k_iai_1" "ck_bleed_debuff_1" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+combat_skill: .id "cain_k_iai" .level 1 .type "melee" .atk 85%  .dmg 40% .crit 5% .move 0 1 .launch 32 .target 12 .is_crit_valid True  .effect "cain_k_iai_2" "ck_bleed_debuff_2" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+combat_skill: .id "cain_k_iai" .level 2 .type "melee" .atk 90%  .dmg 40% .crit 6% .move 0 1 .launch 32 .target 12 .is_crit_valid True  .effect "cain_k_iai_2" "ck_bleed_debuff_3" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+combat_skill: .id "cain_k_iai" .level 3 .type "melee" .atk 95%  .dmg 40% .crit 7% .move 0 1 .launch 32 .target 12 .is_crit_valid True  .effect "cain_k_iai_3" "ck_bleed_debuff_4" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+combat_skill: .id "cain_k_iai" .level 4 .type "melee" .atk 100% .dmg 40% .crit 8% .move 0 1 .launch 32 .target 12 .is_crit_valid True  .effect "cain_k_iai_3" "ck_bleed_debuff_5" "ck_kiriage_bleed_chance_EDIT" .valid_modes ck_two_handed
+
+combat_skill: .id "cain_k_mist" .level 0 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "ck_clear_riposte" "cain_k_riposte_tooltip_1c" "cain_k_riposte_tooltip_1d" "cain_k2_riposte_1" "ck_mark_self_edit" "serene_pose_counter" .is_stall_invalidating false .valid_modes ck_two_handed
+combat_skill: .id "cain_k_mist" .level 0 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "serene_pose_no_dodge" "cain_k_riposte_tooltip_nododge" "cooldown_daze" "ripo_cooldown" "ck_kiriage_bleed_chance_EDIT" "cain_k_riposte_tooltip_CD" .is_stall_invalidating false .valid_modes ck_two_handed
+
+combat_skill: .id "cain_k_mist" .level 1 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "ck_clear_riposte" "cain_k_riposte_tooltip_2c" "cain_k_riposte_tooltip_2d" "cain_k2_riposte_2" "ck_mark_self_edit" "serene_pose_counter" .is_stall_invalidating false .valid_modes ck_two_handed
+combat_skill: .id "cain_k_mist" .level 1 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "serene_pose_no_dodge" "cain_k_riposte_tooltip_nododge" "cooldown_daze" "ripo_cooldown" "ck_kiriage_bleed_chance_EDIT" "cain_k_riposte_tooltip_CD" .is_stall_invalidating false .valid_modes ck_two_handed
+
+combat_skill: .id "cain_k_mist" .level 2 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "ck_clear_riposte" "cain_k_riposte_tooltip_3c" "cain_k_riposte_tooltip_3d" "cain_k2_riposte_3" "ck_mark_self_edit" "serene_pose_counter" .is_stall_invalidating false .valid_modes ck_two_handed
+combat_skill: .id "cain_k_mist" .level 2 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "serene_pose_no_dodge" "cain_k_riposte_tooltip_nododge" "cooldown_daze" "ripo_cooldown" "ck_kiriage_bleed_chance_EDIT" "cain_k_riposte_tooltip_CD" .is_stall_invalidating false .valid_modes ck_two_handed
+
+combat_skill: .id "cain_k_mist" .level 3 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "ck_clear_riposte" "cain_k_riposte_tooltip_4c" "cain_k_riposte_tooltip_4d" "cain_k2_riposte_4" "ck_mark_self_edit" "serene_pose_counter" .is_stall_invalidating false .valid_modes ck_two_handed
+combat_skill: .id "cain_k_mist" .level 3 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "serene_pose_no_dodge" "cain_k_riposte_tooltip_nododge" "cooldown_daze" "ripo_cooldown" "ck_kiriage_bleed_chance_EDIT" "cain_k_riposte_tooltip_CD" .is_stall_invalidating false .valid_modes ck_two_handed
+
+combat_skill: .id "cain_k_mist" .level 4 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "ck_clear_riposte" "cain_k_riposte_tooltip_5c" "cain_k_riposte_tooltip_5d" "cain_k2_riposte_5" "ck_mark_self_edit" "serene_pose_counter" .is_stall_invalidating false .valid_modes ck_two_handed
+combat_skill: .id "cain_k_mist" .level 4 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid False .effect "serene_pose_no_dodge" "cain_k_riposte_tooltip_nododge" "cooldown_daze" "ripo_cooldown" "ck_kiriage_bleed_chance_EDIT" "cain_k_riposte_tooltip_CD" .is_stall_invalidating false .valid_modes ck_two_handed
+
+
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "house_of_the_yellow_hand"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSrDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySrDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSrDebuff
+controlled: .target_rank 2
+id_index: .index 161
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
+mode: .id ck_one_handed .is_raid_default true .affliction_combat_skill_id cain_k_transform 
+mode: .id ck_two_handed .battle_complete_combat_skill_id cain_k_transform 
+generation: .is_generation_enabled true .number_of_positive_quirks_min 2 .number_of_positive_quirks_max 3 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 6 .card_chance 1.0

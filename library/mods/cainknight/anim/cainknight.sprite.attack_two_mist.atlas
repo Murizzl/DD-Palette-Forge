@@ -1,0 +1,20 @@
+
+cainknight.sprite.attack_two_mist.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow.psd
+  rotate: false
+  xy: 587, 1
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+mist.psd
+  rotate: false
+  xy: 1, 1
+  size: 584, 513
+  orig: 635, 514
+  offset: 0, 0
+  index: -1
